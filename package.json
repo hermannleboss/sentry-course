@@ -15,6 +15,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@sentry/vite-plugin": "^0.4.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
     "dotenv": "^10.0.0",
@@ -24,7 +25,6 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^2.2.19",
-    "vite": "^4.1.1",
-    "vite-plugin-sentry": "^1.1.7"
+    "vite": "^4.1.1"
   }
 }
