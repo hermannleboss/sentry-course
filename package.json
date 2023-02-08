@@ -24,6 +24,7 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^2.2.19",
-    "vite": "^4.1.1"
+    "vite": "^4.1.1",
+    "vite-plugin-sentry": "^1.1.7"
   }
 }
