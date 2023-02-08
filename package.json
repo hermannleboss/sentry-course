@@ -11,19 +11,19 @@
   "dependencies": {
     "@sentry/tracing": "^7.36.0",
     "@sentry/vue": "^7.36.0",
-    "vue": "^3.2.16",
-    "vue-router": "^4.0.12"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
-    "autoprefixer": "^10.4.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
     "dotenv": "^10.0.0",
-    "eslint": "^8.2.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "postcss": "^8.3.11",
-    "prettier": "2.4.1",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "tailwindcss": "^2.2.19",
-    "vite": "^2.6.4"
+    "vite": "^4.1.1"
   }
 }
