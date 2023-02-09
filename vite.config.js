@@ -8,7 +8,7 @@ console.log("log du process",process.env.VITE_SENTRY_AUTH_TOKEN)
 // https://vitejs.dev/config/
 export default defineConfig({
   build:{
-    sourcemap:true,
+    sourcemap: true,
   },
   resolve: {
     alias: {

@@ -5,7 +5,7 @@ import "@/assets/main.pcss"
 
 import * as Sentry from "@sentry/vue";
 import { BrowserTracing } from "@sentry/tracing";
-
+import packageJson from "../package.json"
 
 
 const app = createApp(App)
@@ -13,7 +13,7 @@ Sentry.init({
     app,
     dsn: "https://8d447f1ea57e45bd8dd251991bf9707b@o4504645703172096.ingest.sentry.io/4504645717590016",
     logErrors: true,
-    release: "0.0.1",
+    release: packageJson.version,
     integrations: [
         new BrowserTracing({
             routingInstrumentation: Sentry.vueRouterInstrumentation(router),

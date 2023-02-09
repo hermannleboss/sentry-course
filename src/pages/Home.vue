@@ -1,6 +1,6 @@
 <script setup>
   const checkout =  ()=> {
-    throw new Error("checkout is not yet implemented")
+    alert("Checking Out items")
   }
 </script>
 <template>
