@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-4xl">About</h1>
-    <button @click="user.email.send">Sen Email</button>
+    <button @click="user.email.newFunction()">Sen Email</button>
   </div>
 </template>
 
